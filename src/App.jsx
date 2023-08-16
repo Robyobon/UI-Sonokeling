@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home/Home'
 import Layanan from './components/page/RouteLayanan';
@@ -11,10 +11,11 @@ import Contact from "./components/Home/Contact"
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <Navbar />
       <Routes>
      
+        <Route  exact path="/" element={<Home />} />
         <Route  exact path="/home" element={<Home />} />
         <Route path="/tentang" element={<Tentang />} />
         <Route path="/contact" element={<Contact />} />
@@ -23,7 +24,7 @@ function App() {
      
       </Routes>
       <Footer />
-    </Router>
+    </HashRouter>
   );
 }
 
