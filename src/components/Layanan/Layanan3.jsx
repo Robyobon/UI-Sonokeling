@@ -5,11 +5,11 @@ import Surveypemetaan from '../../Asset/surveipemetaan1.png'
 
 function Layanan3() {
   return (
-  <section className='px-10 py-20 md:px-20 lg:px-32'id='Layanan3'>
+  <section className='px-10 py-20 tablet:px-20 desktop::px-32 smartphone:px-10'id='Layanan3'>
      <h2 className='font-bold text-3xl text-black mb-10'> Divisi Kami </h2>
     <div className='container mx-auto'>
     <div className='justify-items-center grid gap-10'>
-        <div className=' grid grid-cols-2 justify-items-center gap-5'>
+        <div className=' grid grid-cols-2 justify-items-center gap-5 smartphone:grid-cols-1'>
         <img src={Divisi} alt='foto Divisi'/>
         <div>
           <h3 className='text-2xl font-medium px-2 py-5'>MANAJEMEN SUMBER DAYA ALAM</h3>
@@ -18,7 +18,7 @@ function Layanan3() {
         </div>
       
         </div>
-        <div className=' grid grid-cols-2 justify-items-center gap-5'>
+        <div className=' grid grid-cols-2 justify-items-center gap-5 smartphone:grid-cols-1'>
         <img src={Gis} alt='foto Gis'/>
         <div className=''>
           <h3 className='text-2xl font-medium px-2 py-5'>GIS / RS</h3>
@@ -27,7 +27,7 @@ function Layanan3() {
         </div>
       
         </div>
-        <div className=' grid grid-cols-2 justify-items-center gap-5'>
+        <div className=' grid grid-cols-2 justify-items-center gap-5 smartphone:grid-cols-1'>
         <img src={Surveypemetaan} alt='foto Gis'/>
         <div className=''>
           <h3 className='text-2xl font-medium px-2 py-5'>SURVEI DAN PEMETAAN</h3>

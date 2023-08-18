@@ -5,7 +5,7 @@ import icon2 from '../../Asset/icon-settings.png';
 
 const AboutSection = () => {
   return (
-    <section className="tentang bg-[#47B5FF] px-10 py-20 md:px-20 desktop:px-32">
+    <section className="tentang bg-[#47B5FF] px-10 py-20 tablet:px-20 desktop:px-32 smartphone:px-10">
       <div className="container mx-auto text-white">
         <h2 className="font-bold text-3xl  mb-10">Tentang Kami</h2>
         <p className="text-lg text-center  mb-6">

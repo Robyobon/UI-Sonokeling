@@ -4,10 +4,10 @@ import Klient2 from '../../Asset/client2.png'
 
 function Klien() {
   return (
-  <section className='px-10 py-20 md:px-20 lg:px-32'id='klien'>
+  <section className='px-10 py-20 tablet:px-20 desktop::px-32 smartphone:px-10'id='klien'>
     <div className='container mx-auto'>
     <h2 className="font-bold text-3xl text-black mb-10">Klien Kami</h2>
-    <div className='grid grid-cols-2 gap-5 justify-items-center'>
+    <div className='grid grid-cols-2 gap-5 justify-items-center smartphone:grid-cols-1'>
         <div>
         <img src={Klient1} alt='foto klient'/>
         <h3 className='text-2xl font-medium px-2 py-5'> Bidang Pengusaha Hutan</h3>

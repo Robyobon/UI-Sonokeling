@@ -3,10 +3,10 @@
 
 function Layanan2() {
   return (
-  <section className='px-10 py-20 md:px-20 lg:px-32 bg-[#47B5FF] 'id='layanan2'>
-    <div className='container mx-auto'>
+  <section className='px-10 py-20 tablet:px-20 desktop:px-32 smartphone:px-10 bg-[#47B5FF] 'id='layanan2'>
+    <div className='container mx-auto text-white'>
         <div>
-        <h3 className='text-2xl font-medium px-2 py-5'>BERDASAR LAYANAN JASA</h3>
+        <h3 className='text-2xl font-medium px-2 py-5 '>BERDASAR LAYANAN JASA</h3>
         <ul className='list-disc px-4'>
             <li>Studi Analisis Mengenai Dampak Lingkungan (Studi AMDAL)</li>
             <li>Studi Kelayakan (Feasibility Study)</li>

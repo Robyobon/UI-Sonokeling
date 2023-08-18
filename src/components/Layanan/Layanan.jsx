@@ -4,10 +4,10 @@ import Layanan2 from '../../Asset/lanan2.png'
 
 function Layanan() {
   return (
-  <section className='px-10 py-20 md:px-20 lg:px-32'id='layanan'>
+  <section className='px-10 py-20 tablet::px-20 desktop::px-32 smartphone:px-10'id='layanan'>
     <div className='container mx-auto'>
     <h2 className="font-bold text-3xl text-black mb-10">Layanan Kami </h2>
-    <div className='grid grid-cols-2 gap-5 '>
+    <div className='grid grid-cols-2 gap-5 smartphone:grid-cols-1 '>
     <div>
       <img src={Layanan1} alt='foto layanan 1'/>
     </div>

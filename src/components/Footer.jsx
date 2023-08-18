@@ -3,7 +3,7 @@
 const FooterSection = () => {
   return (
     <footer>
-        <div className="bg-[#47B5FF] py-8 px-[100px]">
+        <div className="bg-[#47B5FF] py-8 px-[100px] smartphone:px-10 text-white">
             <h1 className='text-3xl font-medium'>PT. SONOKELING</h1>
             <p className='text-base'>
             Villa Ciomas Indah Blok G VII /1-2, Ciomas Rahayu, Ciomas Bogor 16610 - Jawa Barat - Indonesia <br />

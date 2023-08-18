@@ -4,9 +4,9 @@ import Klient4 from '../../Asset/client4.png'
 
 function Klien() {
   return (
-  <section className='px-10 py-20 md:px-20 lg:px-32 bg-[#47B5FF] 'id='klien2'>
+  <section className='px-10 py-20 tBLET:px-20 desktop:px-32 bg-[#47B5FF] smartphone:px-10 'id='klien2'>
     <div className='container mx-auto'>
-    <div className='grid grid-cols-2 gap-5 justify-items-center'>
+    <div className='grid grid-cols-2 gap-5 justify-items-center smartphone:grid-cols-1 text-white'>
         <div>
         <img src={Klient3} alt='foto klient'/>
         <h3 className='text-2xl font-medium px-2 py-5'> BIDANG PERTAMBANGAN MINERBA</h3>

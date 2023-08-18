@@ -18,7 +18,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="contact bg-gray-100 py-8 px-[100px]">
+    <section className="contact bg-gray-100 py-8 px-[100px] smartphone:px-8">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-4">KONTAK</h2>
         <form onSubmit={handleSubmit} className="max-w-md ">
@@ -31,7 +31,7 @@ const ContactSection = () => {
               id="name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="w-full border border-gray-300 rounded-md px-4 py-2"
+              className="w-full smartphone:w-[44vh] border border-gray-300 rounded-md px-4 py-2"
             />
           </div>
           <div className="mb-4">
@@ -43,7 +43,7 @@ const ContactSection = () => {
               id="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full border border-gray-300 rounded-md px-4 py-2"
+              className="w-full border border-gray-300 rounded-md px-4 py-2 smartphone:w-[44vh]"
             />
           </div>
           <div className="mb-4">
@@ -54,8 +54,8 @@ const ContactSection = () => {
               id="message"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
-              className="w-full border border-gray-300 rounded-md py-2"
-              rows="4"
+              className="w-[74vw] border border-gray-300 rounded-md py-2"
+              rows="6"
             ></textarea>
           </div>
           <button
